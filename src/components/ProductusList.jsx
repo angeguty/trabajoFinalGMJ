@@ -18,11 +18,11 @@ const ProductsList = () => {
   return (
     <div>
       {products.map((product) => {
-        return(
+        return (
           <div key={product.id}>
-           <img src=product.image} alt="" />
-      </div>
-);
+            <img src={product.image} alt="" />
+          </div>
+        );
       })}
     </div>
   );
